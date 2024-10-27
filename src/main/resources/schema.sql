@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS balance (
+    account VARCHAR(20) PRIMARY KEY,
+    meal DECIMAL(10, 2) NOT NULL,
+    cash DECIMAL(10, 2) NOT NULL,
+    food DECIMAL(10, 2) NOT NULL
+);
